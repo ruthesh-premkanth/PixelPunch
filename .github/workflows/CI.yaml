@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Using 'build' because your vite.config.ts uses outDir:'build'
-          path: './build'
+          path: './dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
