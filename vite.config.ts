@@ -4,12 +4,12 @@ import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "./",
+  base: "/PixelPunch/",
 
   plugins: [react(), tailwindcss()],
 
   build: {
-    outDir: "dist",
+    outDir: "build",
   },
 
   resolve: {
